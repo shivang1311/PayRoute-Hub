@@ -5,7 +5,7 @@
 
 -- Default Admin User (password: Admin@123 - BCrypt hash)
 INSERT INTO users (username, email, phone, password_hash, role, active) VALUES
-('admin', 'admin@payroute.com', '0000000000', '$2a$12$LJ3m4ys3uz4N9OKKz6rVz.E97t3CLk9X4fGqXHN85kUVGE8nJxKTi', 'ADMIN', TRUE);
+('admin', 'admin@payroute.com', '1234567891', '$2a$12$U5uiQV7e3cq3N2c5wrMo3ePQrklwLcKRyD83g6Q1FmYkQWO987mW6', 'ADMIN', TRUE);
 
 -- System Party and Fee Collection Account
 INSERT INTO party (name, type, country, risk_rating, status) VALUES
